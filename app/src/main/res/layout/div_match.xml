@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/bg"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="-15dp"
+            android:fontFamily="@font/changa"
+            android:text="2018-05-05"
+            android:textColor="@color/AppColor"
+            android:textSize="13sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/clubsscore_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/changa"
+            android:text="اتحاد البليدة - مولودية الجزائر"
+            android:textColor="@color/AppColorBlack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/voir_resultat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/changa"
+            android:lineSpacingExtra="-8dp"
+            android:text="نتيجة نهائية"
+            android:textAlignment="center"
+            android:textColor="@color/AppColor"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/label_but"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/changa"
+            android:text="اهداف:"
+            android:textAlignment="center"
+            android:textColor="@color/AppColor"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/butur_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/changa"
+            android:lineSpacingExtra="-8dp"
+            android:text="الدون بولعويدات"
+            android:textAlignment="center"
+            android:textColor="@color/AppColorBlack"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/label_id_match"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

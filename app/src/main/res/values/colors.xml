@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#02da88</color>
+    <color name="colorPrimaryDark">#4bb480</color>
+    <color name="colorAccent">#4CAF50</color>
+
+    <color name="AppColor">#02da8a</color>
+    <color name="AppColor2">#02b674</color>
+    <color name="AppColor3">#02a853</color>
+    <color name="fonce">#5dc158</color>
+    <color name="AppColorBG">#e4f8ee</color>
+    <color name="AppColorWhite">#ffffff</color>
+    <color name="AppColorBlack">#000000</color>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "106572164177",
+    "project_id": "usmbapplication",
+    "storage_bucket": "usmbapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106572164177:android:1d710d656e34b5aff2dc70",
+        "android_client_info": {
+          "package_name": "com.devs.celtica.usmbapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106572164177-05md33o2c5b3bmf0ii1g330el12si7ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCks2Y55MnRx6HqnWQY4OXMA6OrpI9spUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106572164177-05md33o2c5b3bmf0ii1g330el12si7ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
